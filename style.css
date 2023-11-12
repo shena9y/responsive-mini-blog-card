@@ -1,0 +1,65 @@
+* {
+  font-family: "Sora", sans-serif;
+  margin: unset;
+  padding: unset;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: #fafaf9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: calc(336px + 32px);
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+.card .container .txt-box .category {
+  color: #883ae1;
+  background: #e6d6fc;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 6px 16px;
+  position: relative;
+  border-radius: 25px;
+}
+.card .container .txt-box h4 {
+  font-size: 18px;
+  margin: 16px 0 6px 0;
+  color: #20293a;
+}
+.card .container .txt-box p {
+  font-size: 14px;
+  color: #6c727f;
+  margin-bottom: 20px;
+}
+
+.card .container img {
+  width: 336px;
+  height: 152px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.card .container .txt-box .last {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #6c727f;
+  position: relative;
+  bottom: -10px;
+}
+
+.card .container .txt-box .last::after {
+  content: "";
+  width: calc(100% + 32px);
+  height: 1px;
+  background-color: #e5eaf0;
+  position: absolute;
+  top: -9px;
+  left: -16px;
+}
