@@ -6,6 +6,8 @@ A clean, minimal blog preview card component built with pure HTML & CSS. The car
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-3F54A3?style=for-the-badge&logo=frontendmentor&logoColor=white)
 
+🔗 **Live Demo:** [https://shena9y.github.io/responsive-mini-blog-card/](https://shena9y.github.io/responsive-mini-blog-card/)
+
 ## ✨ Features
 
 - 🖼️ Featured image with rounded corners
